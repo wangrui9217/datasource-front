@@ -1,0 +1,38 @@
+.slot-table{
+  width: 100%;
+  td,th{
+    text-align: center;
+  }
+  /deep/.el-table td{
+    padding: 0;
+  }
+  .el-form-item{
+    margin-top: 22px;
+  }
+}
+/deep/.slot-table{
+  td,th{
+    text-align: center;
+  }
+}
+.edit-info-top{
+  .leftBtn{
+    margin-left: 20px;
+    width: 50px;
+    float: left;
+    .back{
+      color:#20a0ff;
+      cursor: pointer
+    }
+  }
+  .rightBtn{
+    float: right;
+    margin-right: 20px;
+  }
+}
+
+/deep/.el-button{
+  i + span{
+    margin-left: 5px;
+  }
+}

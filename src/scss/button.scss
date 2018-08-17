@@ -1,0 +1,200 @@
+// 普通按钮样式
+.el-button.el-button--primary:not(.is-disabled) ,
+.el-button--info
+{
+    background: #55A8FD;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 14px;
+    border-color: #55A8FD;
+    &:hover {
+        // opacity: 0.9;
+        background: #2289F0;
+        border-color: #2289F0;
+    }
+}
+
+// 按钮禁用样式
+.el-button.el-button--primary.is-disabled{
+    background:#ddd;
+}
+
+// 取消按钮样式
+.el-button.el-button--default {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #475266;
+    line-height: 14px;
+    &:hover {
+        background: #DDDDDD;
+    }
+}
+// default按钮禁用样式
+.el-button.el-button--default.is-disabled{
+    background: #DDDDDD;
+    color: #bfcbd9;;
+    &:hover{
+        background: #DDDDDD;
+    }
+}
+
+// 表格中字体按钮样式
+.el-table .el-button.el-button--text {
+    font-size: 14px;
+    color: #475167;
+    &:hover {
+        color: #50A6FF;
+    }
+}
+
+// 字体按钮样式
+.el-button.el-button--text {
+    font-size: 14px;
+    color: #475167;
+    &:hover {
+        color: #50A6FF;
+    }
+}
+
+// 选项按钮组中字体按钮样式
+.action-btn-container {
+    .el-button.el-button--text {
+        font-size: 14px;
+        color: #475167;
+        &:hover {
+            color: #50A6FF;
+        }
+    }
+    .el-button.is-disabled {
+        color: #bfcbd9;
+        cursor: not-allowed;
+        background-image: none;
+        border-color: #d1dbe5;
+        font-size: 14px;
+        &:hover {
+            color: #bfcbd9;
+        }
+    }
+}
+
+// 普通输入框样式
+.el-input input,
+.el-textarea textarea {
+    background: #FFFFFF;
+    border: 1px solid #D6DBE6;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #475266 !important;
+    font-family: "Microsoft YaHei, Avenir, Helvetica, Arial, sans-serif";
+    &:hover {
+        border: 1px solid #55A8FD;
+        box-shadow: 0 0 4px 0 #55A8FD;
+    }
+}
+.el-input{
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 1px;
+    //width: 180px;
+    // margin-right: 25px;
+    .el-input__suffix{
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .iconfont-search{
+        cursor: pointer;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        &:hover{
+            background: url("../assets/newicon/搜索.png") center no-repeat;
+        }
+        .el-input__icon{
+            vertical-align: middle;
+        }
+    }
+}
+
+.el-input__icon{
+    vertical-align: middle;
+}
+
+// 下拉菜单样式
+.el-select {
+    background: #FFFFFF;
+    border: 1px solid #D6DBE6;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #475266;
+    width: 120px;
+    margin-right: 20px;
+    overflow: hidden;
+    &:hover {
+        border: 1px solid #55A8FD;
+        box-shadow: 0 0 4px 0 #55A8FD;
+    }
+    .el-input{
+        width: 100%;
+        height: 34px;
+        line-height: 34px;
+        .el-input__inner {
+            border: 0 !important;
+            border-radius: 4px !important;
+            height: 34px;
+            line-height: 34px;
+        }
+    }
+}
+
+// 下拉菜单选项列表样式
+.el-select-dropdown.el-popper {
+    background: #fff;
+    font-size: 14px;
+    color: #475167;
+    line-height: 14px;
+    margin: 5px 0;
+    .popper__arrow {
+        display: none;
+    }
+    .el-select-dropdown__list {
+        padding: 0;
+        .el-select-dropdown__item {
+            &:first-of-type {
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+            }
+            &:last-of-type {
+                border-bottom-left-radius: 4px;
+                border-bottom-right-radius: 4px;
+            }
+            &:hover {
+                background: #F0F3FA;
+            }
+        }
+        .hover {
+            background: #F0F3FA;
+        }
+        .selected {
+            color: #fff;
+            background-color: #20a0ff;
+            &:hover {
+                background-color: #20a0ff;
+            }
+        }
+    }
+}
+// 日期选择器样式
+.el-range-editor--small.el-input__inner{
+    height: 36px;
+}

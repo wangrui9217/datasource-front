@@ -1,0 +1,323 @@
+.iconfont-photo {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../../assets/newicon/快照.png") no-repeat center;
+}
+
+.iconfont-search{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../../assets/newicon/搜索hui.png") no-repeat center;
+}
+
+.iconfont-del {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../../assets/newicon/icon删除.png") no-repeat center;
+}
+
+.iconfont-remove {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/一键删除dis.png") no-repeat center;
+}
+
+.iconfont-remove-color {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/一键删除.png") no-repeat;
+}
+
+.iconfont-edit {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../../assets/newicon/icon编辑.png") no-repeat center;
+}
+
+.iconfont-copy {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../../assets/newicon/icon复制.png") no-repeat center;
+}
+
+.iconfont-stop {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../../assets/newicon/停用dis.png") no-repeat center;
+}
+
+.iconfont-stop-color {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/icon停用.png") no-repeat;
+}
+
+.iconfont-start {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../../assets/newicon/启用dis.png") no-repeat center;
+}
+.iconfont-start-color {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/启用.png") no-repeat;
+}
+
+.iconfont-move {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/移动dis.png") no-repeat;
+}
+
+.iconfont-move-color {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/移动.png") no-repeat ;
+}
+
+.iconfont-import {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/导入快照.png") no-repeat;
+}
+
+.iconfont-mock {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/模拟运行.png") no-repeat;
+}
+
+.iconfont-scale {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../../assets/newicon/1比1hui.png") no-repeat center;
+}
+
+.iconfont-scale.color {
+    background: url("../../assets/newicon/1比1lan.png") no-repeat center;
+}
+
+.iconfont-center {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../../assets/newicon/中心hui.png") no-repeat center;
+}
+
+.iconfont-center.color {
+    background: url("../../assets/newicon/中心lan.png") no-repeat center;
+}
+
+.iconfont-big {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../../assets/newicon/放大hui.png") no-repeat center;
+}
+
+.iconfont-big.color {
+    background: url("../../assets/newicon/放大lan.png") no-repeat center;
+}
+
+.iconfont-small {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../../assets/newicon/缩小hui.png") no-repeat center;
+}
+
+.iconfont-small.color {
+    background: url("../../assets/newicon/缩小lan.png") no-repeat center;
+}
+
+.iconfont-wenjian {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/文件夹.png") no-repeat;
+}
+
+.iconfont-filter {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/filter.png") no-repeat;
+}
+
+.iconfont-filter-color {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/筛选lan.png") no-repeat;
+}
+
+.iconfont-testrun {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/试运行dis.png") no-repeat;
+}
+
+.iconfont-testrun-color {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/试运行.png") no-repeat;
+}
+
+.iconfont-export-color {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/导出.png") no-repeat;
+}
+
+.iconfont-detail {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/详情.png") no-repeat center;
+}
+.iconfont-home {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/首页bai.png") no-repeat center;
+}
+.iconfont-home-color{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/首页.png") no-repeat center;
+}
+.iconfont-decision-color{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/决策流.png") no-repeat center;
+}
+.iconfont-decision{
+  background: url("../../assets/newicon/决策流bai.png") no-repeat center;
+}
+.iconfont-rule-color {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/规则管理.png") no-repeat center;
+}
+.iconfont-rule{
+  background: url("../../assets/newicon/规则管理bai.png") no-repeat center;
+}
+.iconfont-field {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/字段管理bai.png") no-repeat center;
+}
+.iconfont-field-color {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/字段管理.png") no-repeat center;
+}
+.iconfont-black{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/黑名单.png") no-repeat center;
+}
+
+.iconfont-export {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/导出.png") no-repeat center;
+}
+.iconfont-result-color {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/结果集.png") no-repeat center;
+}
+.iconfont-result {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/结果集bai.png") no-repeat center;
+}
+.iconfont-white{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../../assets/newicon/白名单.png") no-repeat center;
+}
+.iconfont-white-s{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/白名单s.png") no-repeat center;
+}
+.iconfont-black-s{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/黑名单s.png") no-repeat center;
+}
+.iconfont-run-success{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/run-success.jpg") no-repeat center;
+}
+.iconfont-run-fail{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../assets/newicon/run-fail.jpg") no-repeat center;
+}
